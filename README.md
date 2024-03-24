@@ -1,5 +1,5 @@
 ### Installation
-To install all the dependencies, you should type in make req_install.
+To install all the dependencies, you should type in `make req_install`.
 
 ### Running
-To run the application, you should type in make run.
+To run the application, you should type in `make run`.
