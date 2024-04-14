@@ -1,4 +1,4 @@
-name: Linting Flask APP
+name: Creating action_output file
 
 on: [push]
 
@@ -17,7 +17,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint
-    - name: Analysing the code with pylint
+    - name: Write hello word to the file
       run: |
-        pylint $(git ls-files '*.py') > lint_output.txt
+        echo "Hello World!" > action_output.txt
